@@ -1,0 +1,20 @@
+{
+    "scripts": {
+        "predev": "npm install",
+        "dev": "vite --host 127.0.0.1",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@mantine/core": "latest",
+        "@mantine/form": "^9.4.1",
+        "@mantine/hooks": "latest",
+        "exceljs": "^4.4.0",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-router": "^8.1.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "latest",
+        "vite": "latest"
+    }
+}

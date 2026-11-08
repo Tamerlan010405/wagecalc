@@ -1,0 +1,7 @@
+.git
+.agents
+.codex
+.gocache
+.gomodcache
+.env
+docs

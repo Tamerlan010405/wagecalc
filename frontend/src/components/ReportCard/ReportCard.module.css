@@ -1,0 +1,115 @@
+.Card{
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+}
+.HeaderText{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 155%;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.UnderHeaderText{
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 2px;
+}
+
+.TextCompany{
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    margin-left: 5px;
+}
+
+.Button{
+    border: 1px solid #212529;
+    color: #212529;
+    font-size: 14px;
+}
+
+.InfoRow{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 2px;
+}
+
+.Text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+}
+
+.Button :global(.material-symbols-outlined) {
+    font-size: 14px;
+    line-height: 1;
+    transform: translateY(1px);
+}
+
+.ButtonInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button:hover{
+    background-color: black;
+    color: white;
+    border-color: 1px solid white;
+}
+
+.CalendarText{
+    color: #ADB5BD;
+    font-size: 14px;
+}
+
+.CalendarText :global(.material-symbols-outlined) {
+    font-size: 14px;
+    color: #ADB5BD;
+    transform: translateY(2px);
+    margin-right: 4px;
+}
+
+.TextResult{
+    color: #5C940D;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.ResultTag{
+    padding: 2px 6px;
+    background-color: #F1F3F5;
+    color: #495057;
+    border-radius: 30px;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PassResult{
+    color: #5C940D;
+}
+
+.FailResult{
+    color: #C92A2A;
+}
+
+.Delete{
+    background-color: #FFFFFF;
+    border: 1px solid #CED4DA;
+    color: #C92A2A;
+    border-radius: 30px;
+}
+
+.Delete:hover{
+    background-color: #C92A2A;
+    color: #FFFFFF; 
+}

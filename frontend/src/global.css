@@ -1,0 +1,20 @@
+:root {
+  --app-min-width: 1280px;
+  --app-min-height: 720px;
+}
+
+html,
+body,
+#root {
+  min-width: var(--app-min-width);
+  min-height: var(--app-min-height);
+  margin: 0;
+}
+
+body {
+  overflow-x: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,248 @@
+.Sidebar {
+  width: 100%;
+}
+
+.SideBarExpanded{
+  height: calc(100vh - 260px);
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.SideBarExpanded .ResultCard{
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.ThresholdCard {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.ThresholdInputs {
+  margin-top: 16px;
+}
+
+.ThresholdInputs input {
+  height: 42px;
+  border-radius: 32px;
+}
+
+.ThresholdHint {
+  margin-top: 8px;
+  color: #868e96;
+}
+
+.CalculateButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.CalculateButtonWrapper button {
+  min-width: 120px;
+  height: 42px;
+  background-color: #25262b;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+}
+
+.CalculateButtonWrapper button:hover {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #212529;
+}
+
+.ResultCard {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.ResultSummary {
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.PassResult {
+  background-color: #f4fce3;
+}
+
+.FailResult {
+  background-color: #fff5f5;
+}
+
+.NoThresholdResult {
+  background-color: #f8f9fa;
+}
+
+.VerdictRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.VerdictIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.PassResult .VerdictIcon {
+  background-color: #5c940d;
+  color: #ffffff;
+}
+
+.FailResult .VerdictIcon {
+  background-color: #e03131;
+  color: #ffffff;
+}
+
+.NoThresholdResult .VerdictIcon {
+  background-color: #868e96;
+  color: #ffffff;
+}
+
+.AverageValue {
+  margin-top: 12px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.AverageValue span {
+  margin-left: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #495057;
+}
+
+.Recommendation {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.Steps {
+  position: relative;
+  margin-top: 24px;
+}
+
+.Step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 12px;
+  padding-bottom: 24px;
+}
+
+.Step:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  width: 3px;
+  height: calc(100% - 4px);
+  background-color: #ced4da;
+}
+
+.StepDot {
+  position: relative;
+  z-index: 1;
+  width: 13px;
+  height: 13px;
+  margin-top: 4px;
+  border: 3px solid #ced4da;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.StepContent {
+  min-width: 0;
+}
+
+.StepHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.StepValue {
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.DetailsButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 0 0;
+  border: none;
+  border-top: 1px solid #dee2e6;
+  background: transparent;
+  color: #495057;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.DetailsButton:hover {
+  color: #212529;
+}
+
+.ApiError {
+  padding: 12px 16px;
+  background-color: #fff5f5;
+  border-radius: 8px;
+}
+
+.TextPoint{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.PassResultValue{
+  color: #66A80F;
+}
+
+.FailResultValue{
+  color: #C92A2A;
+}
+
+.Arrow{
+  font-size: 14px;
+  transform: translateY(2px);
+}
+
+.ChoiseBar input{
+  color:#5C940D;
+  border-color: #5C940D;
+}
+
+.ButtonCalculationMethod{
+  display: flex;
+  color: #E8590C;
+}
+
+.ButtonCalculationMethod:hover{
+  color: rgb(171, 99, 5)
+}
+
+.ResultHeader{
+  margin-bottom: 16px;
+}

@@ -1,0 +1,57 @@
+.TitleText{
+    color: #212529;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.Text1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.UnderTitleText{
+    color: #212529;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.Card{
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 600px;
+    width: 100%;
+}
+
+.Text2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.Text3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.Breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.BreadcrumbLink {
+  color: #868e96;
+  text-decoration: none;
+}
+
+.BreadcrumbLink:hover {
+  color: #212529;
+  text-decoration: underline;
+}

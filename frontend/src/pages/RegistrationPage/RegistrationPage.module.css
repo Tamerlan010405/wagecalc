@@ -1,0 +1,126 @@
+.Card{
+    width: 430px;
+    min-height: 440px;
+    padding: 20px;
+    margin: 160px auto 0;
+    border-radius: 24px;
+}
+
+.ContentStack{
+    min-height: 400px;
+}
+
+.TitleText{
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.Text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.Button{
+    color: #E67700;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    height: auto;
+}
+
+.Button:hover{
+    color: rgb(185, 105, 8);
+}
+
+.AfterText{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.Group{
+    margin-bottom: 32px;
+}
+
+.UnderText{
+    font-size: 14px;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 4px;
+}
+
+.Star{
+    color: #F03E3E;
+    margin-left: 3px;
+}
+
+.TextInput{
+    margin-bottom: 8px;
+}
+
+.TextInput input{
+    border-radius: 32px;
+    color: #212529;
+}
+
+.TextInput input::placeholder{
+    color: #ADB5BD;
+}
+
+.InputWrapper{
+    --input-margin-bottom: 0px !important;
+}
+
+.FieldError{
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.CheckboxInput{
+    width: 16px;
+    height: 16px;
+}
+
+.CheckboxLabel{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    padding-left: 0;
+}
+
+.CheckboxBody {
+    align-items: center;
+    gap: 12px;
+}
+
+.CheckboxInner {
+    width: 16px;
+    height: 16px;
+    margin-right: 0;
+}
+
+.ApiError{
+    color: #F03E3E;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.ButtonRegister{
+    border-radius: 32px;
+    background-color: #25262B;
+    color: #FFFFFF;
+    margin-top: auto;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ButtonRegister:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}

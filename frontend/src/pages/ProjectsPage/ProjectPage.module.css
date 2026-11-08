@@ -1,0 +1,391 @@
+.page {
+  width: 100%;
+  margin: 0;
+  padding-top: 41.5px;
+}
+
+.Text{
+  height: 42px;
+  width: 322px;
+  border-color: 1px solid #CED4DA;
+  margin-bottom: 21.5px;
+}
+
+.Text input {
+  font-size: 16px;
+  background-color: #F8F9FA;
+}
+
+.Text input::placeholder {
+  color: #495057;
+}
+
+.Text :global(.material-symbols-outlined) {
+  font-size: 20px;
+  color: #868E96;
+  border: 2px;
+}
+
+.simpleGrid {
+  width: 100%;
+}
+
+.EmptyState{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 190px;
+}
+
+.EmptyImage{
+  width: 190px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.EmptyText{
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.paginationControl{
+  background: #eef2f5;
+  border-color: #DEE2E6;
+  width: 23.87px;
+  min-width: 23.87px;
+  height: 26px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.paginationControl[data-active]{
+  background-color: #212529;
+  color: #FFFFFF;
+}
+
+.Button {
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 216px;
+  min-width: 216px;
+  height: 45px;
+  min-height: 45px;
+  background-color: #25262B;
+  border-radius: 32px;
+  margin-bottom: 20px;
+}
+
+.Button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.Filter{
+  width: 144px;
+  height: 42px;
+  margin-bottom: 21.5px;
+}
+
+.Filter input{
+  border-radius: 30px;
+}
+
+.Filter input::placeholder{
+  color: #495057;
+}
+
+.Filter :global(.material-symbols-outlined){
+  font-size: 24px;
+  color: #868E96;
+}
+
+.Search{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Search input{
+  border-radius: 32px;
+  background-color: #F8F9FA;
+  width: 322px;
+  height: 42px;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #868E96;
+}
+
+.Search input::placeholder{
+  color: #495057;
+}
+
+.Search :global(.material-symbols-outlined){
+  color: #868E96;
+  font-size: 22px;
+}
+
+.ButtonFilter{
+  border-radius: 30px;
+  background-color: #F8F9FA;
+  border: 1px solid #868E96;
+  color: #495057;
+  font-size: 16px;
+  font-weight: 400;
+  width: 144px;
+  height: 42px;
+  padding: 0 14px 0 20px;
+  margin-bottom: 20px;
+}
+
+.ButtonFilterInner{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ButtonFilterSection{
+  margin-left: 0;
+}
+
+.ButtonFilter :global(.material-symbols-outlined){
+  color: #868E96;
+  font-size: 22px;
+}
+
+.ButtonFilter:hover{
+  background-color: #E67700;
+  color: white;
+  border-color: white;
+}
+
+.ButtonFilter:hover :global(.material-symbols-outlined){
+  color: white;
+}
+
+.ButtonFilterActive {
+  background-color: #FFFFFF;
+  border-color: #E67700;
+  color: #E67700;
+}
+
+.ButtonFilterActive :global(.material-symbols-outlined){
+  color: #E67700;
+}
+
+.ButtonFilterActive:hover{
+  background-color: #FFFFFF;
+  border-color: #E67700;
+  color: #E67700;
+}
+
+.ButtonFilterActive:hover :global(.material-symbols-outlined){
+  color: #E67700;
+}
+
+.ResetFilters {
+  height: 42px;
+  padding: 0;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.ResetFilters:hover {
+  background-color: transparent;
+  color: #E67700;
+}
+
+.ResetFilters :global(.material-symbols-outlined) {
+  font-size: 20px;
+  color: #212529;
+}
+
+.ResetFilters:hover :global(.material-symbols-outlined) {
+  color: #E67700;
+}
+
+.Card{
+  padding: 20px;
+  height: 345px;
+  border-radius: 16px;
+}
+
+.TextButtonFilter{
+  color: #212529;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Select input{
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Select input:focus {
+  border-color: #E67700;
+}
+
+.Select input::placeholder {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.QuarterRoot {
+  gap: 4px;
+  padding: 0;
+  background-color: transparent;
+  overflow: visible;
+}
+
+.QuarterLabel {
+  border: 1px solid #CED4DA;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 33px;
+}
+
+.QuarterLabel[data-active] {
+  background-color: #FFFFFF;
+  border-color: #E67700;
+  color: #E67700;
+}
+
+.QuarterIndicator {
+  display: none;
+}
+
+.QuarterControl {
+  flex: 0 0 auto;
+}
+
+.RadioInput:checked {
+  background-color: #f08c00;
+  border-color: #f08c00;
+}
+
+.RadioLabel{
+  font-weight: 400;
+  font-size: 16px;
+  color: #212529;
+}
+
+.ButtonAgreeFilter{
+  border-radius: 30px;
+  background-color: #E67700;
+  width: 144px;
+  margin-top: 30px;
+}
+.ButtonAgreeFilter:hover{
+  background-color: white;
+  color: #E67700;
+  border-color: #E67700;
+}
+
+.DeleteModalContent {
+  border-radius: 16px;
+  height: 206px;
+  overflow: hidden;
+}
+
+.DeleteModalBody {
+  position: relative;
+  height: 100%;
+  padding: 24px 24px 22px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.DeleteModalClose {
+  position: absolute;
+  top: 22px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  font-size: 20;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: #868E96;
+  cursor: pointer;
+}
+
+.DeleteModalClose :global(.material-symbols-outlined) {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.DeleteModalClose:hover {
+  color: #212529;
+}
+
+.DeleteModalClose:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.DeleteModalTitle {
+  max-width: 320px;
+  color: #25262B;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.DeleteModalText {
+  color: #25262B;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.DeleteModalActions {
+  gap: 16px;
+}
+
+.DeleteCancelButton {
+  height: 44px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #1A1B1E;
+  color: #1A1B1E;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.DeleteCancelButton:hover {
+  background-color: #F8F9FA;
+  color: #25262B;
+  border-color: #25262B;
+}
+
+.DeleteConfirmButton {
+  height: 44px;
+  border-radius: 30px;
+  background-color: #D22B2B;
+  border: 2px solid #D22B2B;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.DeleteConfirmButton:hover {
+  background-color: #C92A2A;
+  border-color: #C92A2A;
+  color: #FFFFFF;
+}

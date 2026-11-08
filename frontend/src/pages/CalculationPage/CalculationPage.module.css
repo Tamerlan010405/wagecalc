@@ -1,0 +1,35 @@
+.Page {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.Breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.BreadcrumbLink {
+  color: #868e96;
+  text-decoration: none;
+}
+
+.BreadcrumbLink:hover {
+  color: #212529;
+  text-decoration: underline;
+}
+
+.Title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 16px;
+}
+
+.Content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 16px;
+  align-items: start;
+}
